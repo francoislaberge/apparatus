@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "codemirror": "^5.4.0",
+    "electron-prebuilt": "^0.33.6",
     "keymaster": "^1.6.2",
     "numeric": "^1.2.6",
     "query-string": "^2.4.1",
@@ -36,6 +37,7 @@
     "watch": "npm run watch-js & npm run watch-css",
     "livereload": "livereloadify dist",
     "dev": "npm run watch & npm run livereload",
-    "test": "coffeetape test/*.coffee"
+    "test": "coffeetape test/*.coffee",
+    "desktop": "node desktop/run.js"
   }
 }
